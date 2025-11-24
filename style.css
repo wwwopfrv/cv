@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    border-radius: 50px;
 }
 
 .header {
@@ -31,11 +32,13 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    border-radius: 50px;
+
 }
 
-/* .photo-container{
-/* phota net */
-/* } */ 
+.photo-container{
+    border-radius: 100px;;
+} 
 
 .personal-info h1 {
     font-size: 28px;
@@ -101,7 +104,7 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 290px));
     gap: 20px;
 }
 
@@ -127,7 +130,7 @@ body {
     color: #b3b3b3;
     font-weight: bold;
     display: inline-block;
-    width: 1em;
+    width: 14px;
 }
 
 .company {
@@ -156,6 +159,8 @@ body {
 .footer {
     padding: 20px 30px;
     border-top: 1px solid #eee;
+    padding: 60px 0 60px;
+
 }
 
 .signature {
@@ -172,4 +177,24 @@ body {
 .signature p {
     color: #555;
     margin-bottom: 5px;
+}
+
+.footer-brand div {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+footer {
+    padding: 60px 0 60px;
+}
+
+.footer-brand img {
+    width: 35px;
+    height: 35px;
+}
+
+.prava{
+    margin-top: 10px;
+
 }
